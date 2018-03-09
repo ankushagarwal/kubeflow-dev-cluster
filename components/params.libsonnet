@@ -24,9 +24,9 @@
       secretName: "kubeflow-tf-hub-tls",
     },
     "iap-envoy": {
-      audiences: "/projects/235037502967/global/backendServices/2492632002422541625",
+      audiences: "/projects/235037502967/global/backendServices/2187848895324689280",
       disableJwtChecking: "false",
-      envoyImage: "gcr.io/kubeflow/envoy:v20180124-0.4.0-50-g0d29aac-dirty-4d9e20",
+      envoyImage: "gcr.io/kubeflow-dev/envoy:0fb4886b463698702b6a08955045731903a18738",
       name: "iap-envoy",
       namespace: "kubeflow",
     },
