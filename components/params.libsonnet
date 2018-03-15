@@ -72,5 +72,11 @@
       num_ps: 0,
       num_workers: 0,
     },
+    "seldon-serve-component": {
+      image: "gcr.io/kubeflow-images-staging/issue-summarization-seldon:20180312",
+      name: "seldoncomponent",
+      namespace: "kubeflow-seldon",
+      replicas: 3,
+    },
   },
 }

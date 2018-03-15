@@ -16,3 +16,6 @@ libraries:
   tf-serving:
     path: tf-serving
     version: master
+  seldon:
+    path: seldon
+    version: master
